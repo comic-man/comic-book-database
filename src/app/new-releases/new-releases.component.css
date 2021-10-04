@@ -1,0 +1,18 @@
+p {
+  font-size: 3 em;
+  color: #FE7F88;
+  background-image: 'C:\Users\comic\Documents\Fiddle\comic-book-database\src\assets\cb-background.jpg';
+  background-color: transparent;
+}
+
+div {
+  background-image:
+      url(C:\Users\comic\Documents\Fiddle\comic-book-database\src\assets\cb-background.jpg);
+}
+
+.cb-background {
+  background-image:
+      url(C:\Users\comic\Documents\Fiddle\comic-book-database\src\assets\cb-background.jpg),
+      url(C:\Users\comic\Documents\Fiddle\comic-book-database\src\assets\cb-background.jpg);
+  background-color: transparent;
+}
