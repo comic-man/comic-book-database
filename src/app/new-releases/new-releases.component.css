@@ -1,18 +1,6 @@
 p {
   font-size: 3 em;
   color: #FE7F88;
-  background-image: 'C:\Users\comic\Documents\Fiddle\comic-book-database\src\assets\cb-background.jpg';
-  background-color: transparent;
-}
-
-div {
-  background-image:
-      url(C:\Users\comic\Documents\Fiddle\comic-book-database\src\assets\cb-background.jpg);
-}
-
-.cb-background {
-  background-image:
-      url(C:\Users\comic\Documents\Fiddle\comic-book-database\src\assets\cb-background.jpg),
-      url(C:\Users\comic\Documents\Fiddle\comic-book-database\src\assets\cb-background.jpg);
+  background-image: 'https://images.ctfassets.net/pwv49hug9jad/2xdrhywqMFtnm882Bvim62/35af6090502086036ad6a7424e0e1626/Comicfest-664-2019.jpeg';
   background-color: transparent;
 }
