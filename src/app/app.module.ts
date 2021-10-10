@@ -7,6 +7,7 @@ import { CatalogComponent } from './catalog/catalog.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { ComicBookInfoService } from './comic-book-info.service';
 
+
 @NgModule({
   declarations: [
     AppComponent,

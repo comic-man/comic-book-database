@@ -5,7 +5,9 @@ import { Injectable } from '@angular/core';
 })
 export class ComicBookInfoService {
 
-  getApiResponse(argument){
-    console.log(argument);
+  getApiResponse(name:string){
+    return[
+      {"name":1}
+    ];
   }
 }

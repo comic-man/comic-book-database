@@ -11,6 +11,6 @@ export class AppComponent {
 
   constructor(){
     let svc = new ComicBookInfoService();
-    svc.printToConsole
+    svc.getApiResponse
   }
 }
