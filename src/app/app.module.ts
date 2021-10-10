@@ -16,7 +16,7 @@ import { ComicBookInfoService } from './comic-book-info.service';
     NavigationComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
   ],
   providers: [
     ComicBookInfoService
