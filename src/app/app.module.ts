@@ -6,6 +6,7 @@ import { NewReleasesComponent } from './new-releases/new-releases.component';
 import { CatalogComponent } from './catalog/catalog.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { ComicBookInfoService } from './comic-book-info.service';
+import { AppRoutingModule } from './app-routing.module';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { ComicBookInfoService } from './comic-book-info.service';
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule
   ],
   providers: [
     ComicBookInfoService
