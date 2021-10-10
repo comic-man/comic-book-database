@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { NewReleasesComponent } from './new-releases/new-releases.component';
 import { CatalogComponent } from './catalog/catalog.component';
 import { NavigationComponent } from './navigation/navigation.component';
+import { ComicBookInfoService } from './comic-book-info.service';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,9 @@ import { NavigationComponent } from './navigation/navigation.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [
+    ComicBookInfoService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

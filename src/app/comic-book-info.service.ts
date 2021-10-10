@@ -5,5 +5,7 @@ import { Injectable } from '@angular/core';
 })
 export class ComicBookInfoService {
 
-  constructor() { }
+  getApiResponse(argument){
+    console.log(argument);
+  }
 }

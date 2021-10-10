@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ComicBookInfoService } from './comic-book-info.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'comic-book-database';
+
+  constructor(){
+    let svc = new ComicBookInfoService();
+    svc.printToConsole
+  }
 }
