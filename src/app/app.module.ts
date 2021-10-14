@@ -20,7 +20,7 @@ import { Routes, RouterModule } from '@angular/router';
 @NgModule({
   declarations: [
     AppComponent,
-    routingComponents
+    routingComponents,
     CatalogComponent,
     NavigationComponent,
     HomeComponent

@@ -1,10 +1,14 @@
 import { Component, NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { Routes, RouterModule } from '@angular/router';
+import { CatalogComponent } from './catalog/catalog.component';
+import { HomeComponent } from './home/home.component';
 import { NewReleasesComponent } from './new-releases/new-releases.component';
 
+
 const routes: Routes = [
-  {path:'new releases',component: NewReleasesComponent},
-  {path:''}
+  {path:'catalog', component: CatalogComponent},
+  {path:'new releases', component: NewReleasesComponent},
+  {path:'home', component:HomeComponent}
 ];
 
 @NgModule({
@@ -12,4 +16,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-export const routingComponents = [NewReleasesComponent]
+export const routingComponents = []
