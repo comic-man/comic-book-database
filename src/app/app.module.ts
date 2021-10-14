@@ -7,7 +7,7 @@ import { CatalogComponent } from './catalog/catalog.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { ComicBookInfoService } from './comic-book-info.service';
 import { HomeComponent } from './home/home.component';
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { Routes, RouterModule } from '@angular/router';
 
   const appRoutes: Routes = [
@@ -20,7 +20,7 @@ import { Routes, RouterModule } from '@angular/router';
 @NgModule({
   declarations: [
     AppComponent,
-    NewReleasesComponent,
+    routingComponents
     CatalogComponent,
     NavigationComponent,
     HomeComponent
