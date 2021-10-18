@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { NewReleasesComponent } from './new-releases/new-releases.component';
 import { CatalogComponent } from './catalog/catalog.component';
 import { NavigationComponent } from './navigation/navigation.component';
-import { ComicBookInfoService } from './comic-book-info.service';
+import { ComicBookInfoService } from './Services/comic-book-info.service';
 import { HomeComponent } from './home/home.component';
 import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { Routes, RouterModule } from '@angular/router';

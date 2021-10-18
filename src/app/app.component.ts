@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ComicBookInfoService } from './comic-book-info.service';
+import { ComicBookInfoService } from './Services/comic-book-info.service';
 
 @Component({
   selector: 'app-root',
