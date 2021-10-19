@@ -9,6 +9,7 @@ import { ComicBookInfoService } from './Services/comic-book-info.service';
 import { HomeComponent } from './home/home.component';
 import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { Routes, RouterModule } from '@angular/router';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
   const appRoutes: Routes = [
     { path:'New Releases', component: NewReleasesComponent },
@@ -23,7 +24,8 @@ import { Routes, RouterModule } from '@angular/router';
     routingComponents,
     CatalogComponent,
     NavigationComponent,
-    HomeComponent
+    HomeComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,

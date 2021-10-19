@@ -1,3 +1,6 @@
+.flex-container {
+  display: flex;
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -16,9 +19,5 @@ li a {
 /* Change the link color on hover */
 li a:hover {
   background-color: #555;
-  color: white;
-}
-.active {
-  background-color: #04AA6D;
   color: white;
 }
