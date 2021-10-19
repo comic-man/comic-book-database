@@ -1,0 +1,17 @@
+.flex-container{
+  display: flexbox;
+}
+p{
+  font-size: medium;
+  font-weight: 400;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+align-content: center;
+background-color: blueviolet;
+background-size: auto;
+}
+h3{
+  font-size: xx-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: cadetblue;
+  background-size: auto;
+}

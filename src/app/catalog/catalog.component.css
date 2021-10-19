@@ -1,15 +1,10 @@
 
   .flex-container {
     display: flex;
-    background-color: rgb(241, 160, 8);
+    background-color: rgb(93, 241, 8);
     flex-direction:column;
-    align-content:center;
+    align-items: center;
+    justify-content: space-evenly;
 
-  }
 
-  .flex-container > div {
-    background-color: #f1f1f1;
-    margin: 10px;
-    padding: 5px;
-    font-size: 30px;
   }
