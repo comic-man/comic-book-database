@@ -3,10 +3,14 @@
 }
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 5;
+  padding: 10;
   width: 200px;
   background-color: #db0808;
+  border-width: 1cm;
+  border-radius: 10cm;
+  border-spacing: 10cm;
+  border-style: solid;
 }
 
 li a {
@@ -16,8 +20,3 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color on hover */
-li a:hover {
-  background-color: #555;
-  color: white;
-}

@@ -4,5 +4,5 @@
   background-color: rgb(5, 228, 53);
   width:fit-content;
   padding:3%;
-  position:relative;
+  flex-direction: row;
 }
