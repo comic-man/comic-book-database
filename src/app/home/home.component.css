@@ -1,0 +1,8 @@
+.flex-container {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(5, 228, 53);
+  width:fit-content;
+  padding:3%;
+  position:relative;
+}
