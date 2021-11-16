@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { Routes, RouterModule } from '@angular/router';
 import { AboutUsComponent } from './home/about-us/about-us.component';
+import { LoginInComponent } from './navigation/login-in/login-in.component';
 
 
 
@@ -21,6 +22,7 @@ import { AboutUsComponent } from './home/about-us/about-us.component';
     NavigationComponent,
     HomeComponent,
     AboutUsComponent,
+    LoginInComponent,
   ],
   imports: [
     BrowserModule,

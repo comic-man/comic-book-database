@@ -1,5 +1,7 @@
-.flex-container{
+.container{
   display: flexbox;
+  flex-direction: column;
+  float: left;
 }
 p{
   font-size: medium;
