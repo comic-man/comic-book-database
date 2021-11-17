@@ -1,11 +1,15 @@
 .flex-container {
   display: flex;
-  justify-content: center;
-  background-color: rgb(5, 228, 53);
+  flex-grow: 4;
+  justify-content: end;
   width:fit-content;
   padding:3%;
   flex-direction: row;
 }
-.login-in-container {
-
+.child1 {
+  color: blue;
+}
+.child2 {
+  color: darkcyan;
+  justify-content: end;
 }
