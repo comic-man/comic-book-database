@@ -11,6 +11,12 @@ import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { Routes, RouterModule } from '@angular/router';
 import { AboutUsComponent } from './home/about-us/about-us.component';
 import { LoginInComponent } from './navigation/login-in/login-in.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideAuth,getAuth } from '@angular/fire/auth';
+import { provideDatabase,getDatabase } from '@angular/fire/database';
+import { provideFirestore,getFirestore } from '@angular/fire/firestore';
+import { providePerformance,getPerformance } from '@angular/fire/performance';
 
 
 
@@ -23,10 +29,16 @@ import { LoginInComponent } from './navigation/login-in/login-in.component';
     HomeComponent,
     AboutUsComponent,
     LoginInComponent,
+    NewReleasesComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideAuth(() => getAuth()),
+    provideDatabase(() => getDatabase()),
+    provideFirestore(() => getFirestore()),
+    providePerformance(() => getPerformance()),
   ],
   providers: [
     ComicBookInfoService

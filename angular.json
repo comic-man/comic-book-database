@@ -101,6 +101,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "comic-book-database:build:production",
+            "firebaseProject": "comic-book-database-9cfe4",
+            "firebaseHostingSite": "comic-book-database-9cfe4"
+          }
         }
       }
     }

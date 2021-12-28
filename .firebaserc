@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "comic-book-database-9cfe4": {
+      "hosting": {
+        "comic-book-database": [
+          "comic-book-database-9cfe4"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "comic-book-database-9cfe4"
+  }
+}
