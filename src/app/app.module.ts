@@ -17,6 +17,7 @@ import { provideAuth,getAuth } from '@angular/fire/auth';
 import { provideDatabase,getDatabase } from '@angular/fire/database';
 import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 import { providePerformance,getPerformance } from '@angular/fire/performance';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 
@@ -39,6 +40,7 @@ import { providePerformance,getPerformance } from '@angular/fire/performance';
     provideDatabase(() => getDatabase()),
     provideFirestore(() => getFirestore()),
     providePerformance(() => getPerformance()),
+    BrowserAnimationsModule,
   ],
   providers: [
     ComicBookInfoService
