@@ -18,7 +18,8 @@ import { provideDatabase,getDatabase } from '@angular/fire/database';
 import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 import { providePerformance,getPerformance } from '@angular/fire/performance';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatIconModule } from '@angular/material/icon';
 
 
 @NgModule({
@@ -30,7 +31,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     HomeComponent,
     AboutUsComponent,
     LoginInComponent,
-    NewReleasesComponent
+    NewReleasesComponent,
+
+
   ],
   imports: [
     BrowserModule,
@@ -41,6 +44,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     provideFirestore(() => getFirestore()),
     providePerformance(() => getPerformance()),
     BrowserAnimationsModule,
+    MatToolbarModule,
+    MatIconModule,
+
   ],
   providers: [
     ComicBookInfoService
